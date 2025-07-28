@@ -1,4 +1,4 @@
-# 🚀 Data Engineering Journey – Jeet Das
+# 🚀 Data Engineering Journey !!
 
 Hi! I'm Jeet Das, I'm on a mission to become a Data Engineer by building my skills through real-world projects and learning daily.
 
