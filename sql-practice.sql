@@ -23,3 +23,15 @@ from Customers where id not in
   (select Customers.id 
   from Customers,Orders 
   where Customers.id = Orders.customerId);
+
+
+
+-- ## Print the top 3 salaried employees in each department using dense_rank()  -- leetcode
+with rank as 
+(
+SELECT d.name as Department,e.name as Employee, e.salary as Salary,
+dense_rank() over (partition by d.id order by e.salary desc) as ranking
+FROM Employee e JOIN Department d
+on e.departmentId = d.id 
+)
+Select Department, Employee, Salary from rank where ranking <=3
