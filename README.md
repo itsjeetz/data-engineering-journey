@@ -7,7 +7,7 @@ Hi! I'm Jeet Das, I'm on a mission to become a Data Engineer by building my skil
 | Date | What I Did |
 |------|------------|
 | 2025-07-28 | Started this repo, updated LinkedIn, Started with SQL + Python Pandas|
-| 2025-07-29 | SQL practice (Leetcode), setup Python Jupyter notebook |
+| 2025-07-29 | SQL practice (Leetcode), Importing & cleaning CSV in python|
 
 ## 🧠 Tech Stack Learning
 - SQL (Advanced joins, window functions)
