@@ -40,3 +40,10 @@ for i in string:
 print("Vowels:",count)
 
 
+#CHECK IF THE ARRAY IS SORTED OR NOT.
+for i in range(len(array)-1):
+    if(array[i]>array[i+1]):
+        print("False")
+        exit()
+print("True")
+
