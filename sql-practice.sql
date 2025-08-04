@@ -35,3 +35,13 @@ FROM Employee e JOIN Department d
 on e.departmentId = d.id 
 )
 Select Department, Employee, Salary from rank where ranking <=3
+
+
+-- ## Max salary in each department -- leetcode
+Select d.name as Department, e. name as Employee, e.salary as Salary from Employee e join Department d
+on e.departmentId = d.id
+where (departmentId,salary) in (Select DepartmentId, max(salary) from Employee group by DepartmentId)
+
+
+--## Delete same email ids from table and display the email with minimum id-- leetcode
+delete p1 from Person p1, person p2 where p1.email=p2.email and p1.id>p2.id;
