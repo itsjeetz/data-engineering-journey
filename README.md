@@ -10,6 +10,8 @@ Hi! I'm Jeet Das, I'm on a mission to become a Data Engineer by building my skil
 | 2025-07-29 | SQL practice (Leetcode), Importing & cleaning CSV in python|
 | 2025-07-31 | Python DSA(GFG) |
 | 2025-08-04 | SQL practice on Leetcode |
+|05/08/2025 - 10/08/2025 |ETL Orders Project Analysis |
+
 
 ## 🧠 Tech Stack Learning
 - SQL (Advanced joins, window functions)
